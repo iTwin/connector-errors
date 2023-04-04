@@ -73,7 +73,8 @@
     "WorksetOverrideNotFound": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/58405/worksetoverridenotfound",
     "SchemaUpgradeFailure": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#SchemaUpgradeFailure",
     "InconsistentURL" : "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/63085/inconsistent-url",
-    "DuplicateData" : "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#DuplicateModels"
+    "DuplicateData" : "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#DuplicateModels",
+    "AnotherUserPushing" : "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#AnotherUserPushing"
   },
   "errors": {
     "briefcase_deleted": {
@@ -542,7 +543,7 @@
         "canUserFix": true
     },
     "NonLinearUnits": {
-      "description": "The file is not using linear units.",
+      "description": "The root model is not using linear units.",
       "categoryId": "configuration",
       "canUserFix": true,
       "kbLinkId": "NonLinearUnits"
@@ -552,6 +553,13 @@
         "categoryId": "data_conflict",
         "canUserFix": true,
         "kbLinkId": "DuplicateData"
+    },
+    "AnotherUserPushing" : {
+        "description": "Another user is attempting to push data to the same iModel. Please try again in a few minutes.",
+        "categoryId": "imodel_access",
+        "canUserFix": true,
+        "kbLinkId": "AnotherUserPushing"
     }
+
   }
 }
