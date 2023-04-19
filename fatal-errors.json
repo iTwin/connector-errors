@@ -53,29 +53,30 @@
   ],
   "kbArticleLinks": {
     "AccessToDataSourceDenied": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#AccessToDataSourceDenied",
-    "ProductInstallationPathNotFound": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#ProductInstallationPathNotFound",
-    "FailedToAccessDataSource": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#FailedToAccessDataSource",
+    "AnotherUserPushing" : "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#AnotherUserPushing",
+    "ConnectorLockError": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#ConnectorLockError",
     "DatasourceAuthenticationTypeIsNotSupported": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#DatasourceAuthenticationTypeIsNotSupported",
-    "IModelNotFound": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#iModelName",
-    "IModelAccessForbidden": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#IModelAccessWasForbidden",
-    "UserNotAuthenticated": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#UserNotAuthenticated",
     "DocumentNotFound": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#DocumentNotFound",
+    "DuplicateData" : "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#DuplicateModels",
+    "FailedToAccessDataSource": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#FailedToAccessDataSource",
+    "FileFormat": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#fileFormat",
+    "GeodeticCoordinateSystemNotSupported": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/48731/geoconnector#GeodeticCoordinateSystemNotSupported",
+    "IModelAccessForbidden": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#IModelAccessWasForbidden",
+    "IModelNotFound": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#iModelName",
+    "InconsistentURL" : "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/63085/inconsistent-url",
+    "MissingShapefileDbfShx": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/48731/geoconnector#convertingShapeFiles",
+    "MissingWorkspace": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#MissingWorkspace",
+    "NonLinearUnits": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#NonLinearUnits",
+    "ProductInstallationPathNotFound": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#ProductInstallationPathNotFound",
     "ProtectedFile": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#ProtectedFile",
     "RootNotSpatial": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#RootNotSpatial",
-    "FileFormat": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#fileFormat",
-    "UnmapInputFile": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#unmapInputFile",
-    "MissingWorkspace": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#MissingWorkspace",
-    "UserLacksPssPermissions": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#ProductSettingPermissionsMissing",
-    "ConnectorLockError": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#ConnectorLockError",
-    "GeodeticCoordinateSystemNotSupported": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/48731/geoconnector#GeodeticCoordinateSystemNotSupported",
-    "NonLinearUnits": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#NonLinearUnits",
-    "MissingShapefileDbfShx": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/48731/geoconnector#convertingShapeFiles",
-    "WorksetOverrideNotFound": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/58405/worksetoverridenotfound",
     "SchemaUpgradeFailure": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#SchemaUpgradeFailure",
-    "InconsistentURL" : "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/63085/inconsistent-url",
-    "DuplicateData" : "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#DuplicateModels",
-    "AnotherUserPushing" : "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#AnotherUserPushing"
-  },
+    "UnmapInputFile": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#unmapInputFile",
+    "UserLacksPssPermissions": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#ProductSettingPermissionsMissing",
+    "UserNotAuthenticated": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#UserNotAuthenticated",
+    "WorksetOverrideNotFound": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/58405/worksetoverridenotfound",
+    "ZeroByte": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#ZeroByte" 
+},
   "errors": {
     "briefcase_deleted": {
       "description": "Briefcase ID %u does not exist on the server, so it cannot be restored. You must acquire a new briefcase.",
@@ -559,6 +560,13 @@
         "categoryId": "imodel_access",
         "canUserFix": true,
         "kbLinkId": "AnotherUserPushing"
+    },
+    "ZeroByte" : {
+        "description": "File has a size of 0 bytes.  Please check your datasource.",
+        "categoryId": "data_conflict",
+        "canUserFix": true,
+        "kbLinkId": ""
+
     }
 
   }
