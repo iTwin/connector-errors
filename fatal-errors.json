@@ -76,7 +76,10 @@
     "UserLacksPssPermissions": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#ProductSettingPermissionsMissing",
     "UserNotAuthenticated": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#UserNotAuthenticated",
     "WorksetOverrideNotFound": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/58405/worksetoverridenotfound",
-    "ZeroByte": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#ZeroByte" 
+    "ZeroByte": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#ZeroByte",
+    "SourceFileNotAccessible": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#SourceFileNotAccessible", 
+    "SourceFileIsForbidden" : "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#SourceFileIsForbidden",
+    "SourceFileNotFound" : "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#SourceFileNotFound"
 },
   "errors": {
     "briefcase_deleted": {
@@ -568,8 +571,25 @@
         "categoryId": "data_conflict",
         "canUserFix": true,
         "kbLinkId": ""
-
+    },
+    "SourceFileNotAccessible" : {
+      "description": "The source file is not accessible.",
+      "categoryId": "other",
+      "canUserFix": true,
+      "kbLinkId": "SourceFileNotAccessible"
+    },
+    "SourceFileIsForbidden" : {
+      "description": "Source file pre-authenticated URL is expired.",
+      "categoryId": "other",
+      "canUserFix": true,
+      "kbLinkId": "SourceFileIsForbidden"
+    },
+    "SourceFileNotFound" : {
+      "description": "Source file was not found at location.",
+      "categoryId": "other",
+      "canUserFix": true,
+      "kbLinkId": "SourceFileNotFound"
     }
-
+    
   }
 }
