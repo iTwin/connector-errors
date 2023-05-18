@@ -574,19 +574,19 @@
     },
     "SourceFileNotAccessible" : {
       "description": "The source file is not accessible.",
-      "categoryId": "other",
+      "categoryId": "file_access",
       "canUserFix": true,
       "kbLinkId": "SourceFileNotAccessible"
     },
     "SourceFileIsForbidden" : {
       "description": "Source file pre-authenticated URL is expired.",
-      "categoryId": "other",
+      "categoryId": "file_access",
       "canUserFix": true,
       "kbLinkId": "SourceFileIsForbidden"
     },
     "SourceFileNotFound" : {
       "description": "Source file was not found at location.",
-      "categoryId": "other",
+      "categoryId": "file_access",
       "canUserFix": true,
       "kbLinkId": "SourceFileNotFound"
     }
