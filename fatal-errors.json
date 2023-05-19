@@ -72,12 +72,15 @@
     "ProtectedFile": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#ProtectedFile",
     "RootNotSpatial": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#RootNotSpatial",
     "SchemaUpgradeFailure": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#SchemaUpgradeFailure",
+    "SourceFileIsForbidden" : "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#SourceFileIsForbidden",
+    "SourceFileNotAccessible": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#SourceFileNotAccessible", 
+    "SourceFileNotFound" : "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#SourceFileNotFound",
     "UnmapInputFile": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#unmapInputFile",
     "UserLacksPssPermissions": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#ProductSettingPermissionsMissing",
     "UserNotAuthenticated": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#UserNotAuthenticated",
     "WorksetOverrideNotFound": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/58405/worksetoverridenotfound",
-    "ZeroByte": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#ZeroByte" 
-},
+    "ZeroByte": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#ZeroByte"
+ },
   "errors": {
     "briefcase_deleted": {
       "description": "Briefcase ID %u does not exist on the server, so it cannot be restored. You must acquire a new briefcase.",
@@ -568,8 +571,25 @@
         "categoryId": "data_conflict",
         "canUserFix": true,
         "kbLinkId": ""
-
+    },
+    "SourceFileNotAccessible" : {
+      "description": "The source file is not accessible.",
+      "categoryId": "file_access",
+      "canUserFix": true,
+      "kbLinkId": "SourceFileNotAccessible"
+    },
+    "SourceFileIsForbidden" : {
+      "description": "Source file pre-authenticated URL is expired.",
+      "categoryId": "file_access",
+      "canUserFix": true,
+      "kbLinkId": "SourceFileIsForbidden"
+    },
+    "SourceFileNotFound" : {
+      "description": "Source file was not found at location.",
+      "categoryId": "file_access",
+      "canUserFix": true,
+      "kbLinkId": "SourceFileNotFound"
     }
-
+    
   }
 }
