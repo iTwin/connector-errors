@@ -1,0 +1,191 @@
+{
+  "$schema": "./fatal-errors-schema.json",
+  "systems": [
+    {
+      "name": "exporter",
+      "phases": [
+        "download_imodel",
+        "upload_output_file",
+        "transformation",
+        "initialization",
+        "download_file",
+        "push_notification"
+      ]
+    }
+  ],
+  "categories": [
+    "imodel_access",
+    "configuration",
+    "download_file",
+    "download_imodel",
+    "upload_output_file",
+    "transformation",    
+    "other"
+  ],
+  "kbArticleLinks": {
+  },
+  "errors": {
+    "FailedToExport" : {
+      "description": "Failed to export your file.",
+      "categoryId": "other",
+      "canUserFix": false,
+      "kbLinkId": ""
+    },
+    "FailedToStartImodelHost" : {
+      "description": "Failed to start the iModel host.",
+      "categoryId": "configuration",
+      "canUserFix": false,
+      "kbLinkId": ""
+    },
+    "ExcessiveElements" : {
+      "description": "The requested export contained more than 1 million objects and the exporter is unable to export this iModel. Please try again using a saved view that has fewer elements.",
+      "categoryId": "download_imodel",
+      "canUserFix": true,
+      "kbLinkId": ""
+    },
+    "MissingTokenDetails" : {
+      "description": "Missing user token details.",
+      "categoryId": "configuration",
+      "canUserFix": false,
+      "kbLinkId": ""
+    },
+    "FailedToGetToken" : {
+      "description": "Error occurred while getting user access token.",
+      "categoryId": "configuration",
+      "canUserFix": false,
+      "kbLinkId": ""
+    },
+    "ErrorInParsingImodelName" : {
+      "description": "Error occurred while parsing the iModel name.",
+      "categoryId": "download_imodel",
+      "canUserFix": false,
+      "kbLinkId": ""
+    },
+    "FailedToDownloadImodel" : {
+      "description": "Error occurred while downloading iModel.",
+      "categoryId": "download_imodel",
+      "canUserFix": false,
+      "kbLinkId": ""
+    },
+    "FailedToDownloadFile" : {
+      "description": "Error occurred while downloading file.",
+      "categoryId": "download_file",
+      "canUserFix": false,
+      "kbLinkId": ""
+    },
+    "ErrorInTransformation" : {
+      "description": "Error occurred in transformation (filtering).",
+      "categoryId": "transformation",
+      "canUserFix": false,
+      "kbLinkId": ""
+    },
+    "MissingProjectIdOrImodelId" : {
+      "description": "ProjectId or iModelId is missing in the request.",
+      "categoryId": "configuration",
+      "canUserFix": false,
+      "kbLinkId": ""
+    },
+    "MissingFolderId" : {
+      "description": "FolderId is missing in the request.",
+      "categoryId": "upload_output_file",
+      "canUserFix": false,
+      "kbLinkId": ""
+    },
+    "MissingUserOutputSasUrl" : {
+      "description": "User output SasUrl is missing in the request.",
+      "categoryId": "upload_output_file",
+      "canUserFix": false,
+      "kbLinkId": ""
+    },
+    "MissingOutputFilePath" : {
+      "description": "Output File path is missing.",
+      "categoryId": "upload_output_file",
+      "canUserFix": false,
+      "kbLinkId": ""
+    },
+    "NoReadPermission" :{
+      "description": "No read permission for given iModel",
+      "categoryId": "imodel_access",
+      "canUserFix": false,
+      "kbLinkId": ""
+    },
+    "ErrorInGettingFile" :{
+      "description": "Error occurred while getting file.",
+      "categoryId": "download_file",
+      "canUserFix": false,
+      "kbLinkId": ""
+    },
+    "ErrorInCheckingRootFolder" :{
+      "description": "Error occurred while checking root folder.",
+      "categoryId": "upload_output_file",
+      "canUserFix": false,
+      "kbLinkId": ""
+    },
+    "ErrorInCreatingRootFolder" :{
+      "description": "Error occurred while creating root folder.",
+      "categoryId": "upload_output_file",
+      "canUserFix": false,
+      "kbLinkId": ""
+    },
+    "ErrorInCreatingNewFile" :{
+      "description": "Error occurred while creating new file.",
+      "categoryId": "upload_output_file",
+      "canUserFix": false,
+      "kbLinkId": ""
+    },
+    "ErrorInUpdate" :{
+      "description": "Error occurred while updating file properties.",
+      "categoryId": "upload_output_file",
+      "canUserFix": false,
+      "kbLinkId": ""
+    },
+    "FileStatusNotFound" :{
+      "description": "Error occurred while getting file status.",
+      "categoryId": "upload_output_file",
+      "canUserFix": false,
+      "kbLinkId": ""
+    },
+    "ErrorInUploading" :{
+      "description": "Error occurred while uploading file.",
+      "categoryId": "upload_output_file",
+      "canUserFix": false,
+      "kbLinkId": ""
+    },
+    "FileNotFound" :{
+      "description": "File path does not exist.",
+      "categoryId": "upload_output_file",
+      "canUserFix": false,
+      "kbLinkId": ""
+    },
+    "MissingGPRID" :{
+      "description": "GPRID is missing in the request.",
+      "categoryId": "configuration",
+      "canUserFix": false,
+      "kbLinkId": ""
+    },
+    "MissingAUTHGUID" :{
+      "description": "AUTHGUID is missing.",
+      "categoryId": "configuration",
+      "canUserFix": false,
+      "kbLinkId": ""
+    },
+    "ErrorInGettingImodelHandle" :{
+      "description": "Error occurred while getting the iModel Handle.",
+      "categoryId": "download_imodel",
+      "canUserFix": false,
+      "kbLinkId": ""
+    },
+    "ErrorInGettingImodelName" :{
+      "description": "Error occurred while getting iModel name.",
+      "categoryId": "download_imodel",
+      "canUserFix": false,
+      "kbLinkId": ""
+    },
+    "ErrorWhileDownloadingBriefcases" :{
+      "description": "Error occurred while downloading the iModel briefcase.",
+      "categoryId": "download_imodel",
+      "canUserFix": false,
+      "kbLinkId": ""
+    }    
+  }
+}

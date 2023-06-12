@@ -1,0 +1,76 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://example.com/product.schema.json",
+    "title": "Exporter Errors",
+    "description": "A exporter error in the errors-schema.json",
+    "type": "object",
+    "properties": {
+        "systems": {
+            "description": "Array of json objects where each entry is a system name and its phases",
+            "type": "array",
+            "items": {
+                "$ref": "#/$defs/system"
+            },
+            "uniqueItems": true
+        },
+        "categories": {
+            "description": "Category is used as an organizational property to describe what an error pertains to",
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "kbArticleLinks": {
+            "description": "knowledge-based article links, these usually contain information about one or more errors in the list of errors",
+            "type": "object",
+            "patternProperties": {
+                ".*": {"type": "string"}
+            }
+        },
+        "errors": {
+            "type": "object",
+            "patternProperties": {
+                ".*": {"$ref": "#/$defs/error"}
+            },
+            "additionalProperties": false
+        }
+    },
+    "$defs": {
+        "system": {
+            "type": "object",
+            "required": ["name", "phases"],
+            "properties": {
+                "name": {
+                    "type": "string",
+                    "description": "name of the system"
+                },
+                "phases": {
+                    "type": "array",
+                    "description": "array of phases that the system would typically go through",
+                    "items": {
+                        "type": "string"
+                    }
+                }
+            }
+        },
+        "error": {
+            "type": "object",
+            "required": ["description", "categoryId", "canUserFix"],
+            "properties": {
+                "description": {
+                    "type": "string"
+                },
+                "categoryId": {
+                    "type": "string"
+                },
+                "kbLinkId": {
+                    "type": "string"
+                },
+                "canUserFix": {
+                    "type": "boolean"
+                }
+            },
+            "additionalProperties": false
+        }
+    }
+}
