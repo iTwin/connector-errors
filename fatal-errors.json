@@ -568,7 +568,7 @@
         "kbLinkId": "AnotherUserPushing"
     },
     "ZeroByte" : {
-        "description": "File has a size of 0 bytes.  Please check your datasource.",
+        "description": "File %s has a size of 0 bytes. Please check your datasource.",
         "categoryId": "data_conflict",
         "canUserFix": true,
         "kbLinkId": ""
