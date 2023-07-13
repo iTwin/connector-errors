@@ -38,7 +38,7 @@
       "kbLinkId": ""
     },
     "ExcessiveElements" : {
-      "description": "The requested export contained more than 1 million objects and the exporter is unable to export this iModel. Please try again using a saved view that has fewer elements.",
+      "description": "The requested export contained more than 1.5 million objects and the exporter is unable to export this iModel. Please try again using a saved view that has fewer elements.",
       "categoryId": "download_imodel",
       "canUserFix": true,
       "kbLinkId": ""
