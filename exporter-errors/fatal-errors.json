@@ -186,6 +186,12 @@
       "categoryId": "download_imodel",
       "canUserFix": false,
       "kbLinkId": ""
+    },
+    "Error_In_Checking_Imodel_Read_Permission": {
+      "description":"Error Occurred while checking iModel read permission",
+      "categoryId": "ImodelAccess",
+      "canUserFix": false,
+      "kbLinkId": ""
     }    
   }
 }
