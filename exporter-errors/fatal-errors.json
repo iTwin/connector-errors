@@ -9,7 +9,8 @@
         "transformation",
         "initialization",
         "download_file",
-        "push_notification"
+        "push_notification",
+        "export_file"
       ]
     }
   ],
