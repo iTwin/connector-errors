@@ -187,9 +187,9 @@
       "canUserFix": false,
       "kbLinkId": ""
     },
-    "Error_In_Checking_Imodel_Read_Permission": {
-      "description":"Error Occurred while checking iModel read permission",
-      "categoryId": "ImodelAccess",
+    "ErrorInCheckingImodelReadPermission": {
+      "description":"Error occurred while checking iModel read permission",
+      "categoryId": "imodel_access",
       "canUserFix": false,
       "kbLinkId": ""
     }    
