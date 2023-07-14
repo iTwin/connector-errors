@@ -354,6 +354,11 @@
       "categoryId": "other",
       "canUserFix": false
     },
+    "JobAborted": {
+      "description": "A connector job can no longer continue and has been aborted in phase %s [%s]",
+      "categoryId": "other",
+      "canUserFix": false
+    },
     "DrawingFileWithWrongConfig": {
       "description": "Do not use a 2D file as root model with sheets and drawings settings disabled.",
       "categoryId": "configuration",
