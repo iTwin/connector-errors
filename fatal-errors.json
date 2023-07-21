@@ -601,7 +601,11 @@
       "categoryId": "file_access",
       "kbLinkId": "SourceFileCorrupted",
       "canUserFix": true
+    },
+    "InvalidChangesetGroupId": {
+      "description": "The Connector was provided an invalid changeset group ID by the orchestrator.",
+      "categoryId": "configuration",
+      "canUserFix": false
     }
-    
   }
 }
