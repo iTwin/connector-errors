@@ -603,7 +603,7 @@
       "kbLinkId": "SourceFileCorrupted",
       "canUserFix": true
     },
-    "IncompleteDxfFile": {
+    "IncompleteDxfHeader": {
       "description": "The input DXF file, %s, is invalid. It has an incomplete or missing HEADER section, and potentially other problems as well. Try fixing the file in AutoCAD.",
       "categoryId": "file_access",
       "kbLinkId": "IncompleteDxfHeader",
