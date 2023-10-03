@@ -64,7 +64,7 @@
     "GeodeticCoordinateSystemNotSupported": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/48731/geoconnector#GeodeticCoordinateSystemNotSupported",
     "IModelAccessForbidden": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#IModelAccessWasForbidden",
     "IModelNotFound": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#iModelName",
-    "IncompleteDxfFile" : "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#IncompleteDxfFile",
+    "IncompleteDxfHeader" : "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#IncompleteDxfFile",
     "InconsistentURL" : "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/63085/inconsistent-url",
     "MissingShapefileDbfShx": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/48731/geoconnector#convertingShapeFiles",
     "MissingWorkspace": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#MissingWorkspace",
@@ -606,7 +606,7 @@
     "IncompleteDxfFile": {
       "description": "The input DXF file, %s, is invalid. It has an incomplete or missing HEADER section, and potentially other problems as well. Try fixing the file in AutoCAD.",
       "categoryId": "file_access",
-      "kbLinkId": "IncompleteDxfFile",
+      "kbLinkId": "IncompleteDxfHeader",
       "canUserFix": true
     },
     "InvalidChangesetGroupId": {
