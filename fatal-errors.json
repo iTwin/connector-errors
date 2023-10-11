@@ -60,6 +60,7 @@
     "DrawingFileWithWrongConfig": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#DrawingFileWithWrongConfig",
     "DuplicateData" : "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#DuplicateModels",
     "FailedToAccessDataSource": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#FailedToAccessDataSource",
+    "FailedToConnectToRemoteServerApplication": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/48860/creating-a-connection",
     "FileFormat": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#fileFormat",
     "GeodeticCoordinateSystemNotSupported": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/48731/geoconnector#GeodeticCoordinateSystemNotSupported",
     "IModelAccessForbidden": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#IModelAccessWasForbidden",
@@ -613,6 +614,12 @@
       "description": "The Connector was provided an invalid changeset group ID by the orchestrator.",
       "categoryId": "configuration",
       "canUserFix": false
-    }
+    },
+    "FailedToConnectToRemoteServerApplication": {
+       "description": "Failed to connect to the remote server application to retrieve files.",
+       "categoryId": "file_access",
+       "kbLinkId": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/48860/creating-a-connection",
+       "canUserFix": true
+    }    
   }
 }
