@@ -618,7 +618,7 @@
     "FailedToConnectToRemoteServerApplication": {
        "description": "Failed to connect to the remote server application to retrieve files.",
        "categoryId": "file_access",
-       "kbLinkId": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/48860/creating-a-connection",
+       "kbLinkId": "FailedToConnectToRemoteServerApplication",
        "canUserFix": true
     }    
   }
