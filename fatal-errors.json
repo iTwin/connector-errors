@@ -38,7 +38,8 @@
         "pull_merge_push",
         "workspace_check",
         "affinity_check",
-        "unmap"
+        "unmap",
+        "user_permission"
       ]
     }
   ],
