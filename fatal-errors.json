@@ -621,6 +621,12 @@
        "categoryId": "file_access",
        "kbLinkId": "FailedToConnectToRemoteServerApplication",
        "canUserFix": true
-    }    
+    },
+    "FailedToReaquireJobSubject": {
+      "description": "Failed to re-acquire job subject during processing. Unable to continue processing.",
+      "categoryId": "other",
+      "kbLinkId": "",
+      "canUserFix": false
+    }
   }
 }
