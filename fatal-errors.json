@@ -627,6 +627,11 @@
       "categoryId": "other",
       "kbLinkId": "",
       "canUserFix": false
+    },
+    "ECEFAlreadyExistsInIModel": {
+      "description": "The iModel already contains an ECEF coordinate system. The file with the projected GCS must be imported first.",
+      "categoryId": "configuration",
+      "canUserFix": true
     }
   }
 }
