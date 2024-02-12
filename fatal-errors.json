@@ -62,7 +62,7 @@
     "DuplicateData": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#DuplicateModels",
     "FailedToAccessDataSource": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/68799/failed-to-access-data-source",
     "FailedToConnectToRemoteServerApplication": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/48860/creating-a-connection",
-    "FileFormat": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#fileFormat",
+    "FileFormat": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/68844/unrecognized-format",
     "GeodeticCoordinateSystemNotSupported": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/68983/geodetic-coordinate-system-not-supported",
     "IModelAccessForbidden": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/68944/imodel-access-was-forbidden",
     "IModelNotFound": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/69274/imodel-not-found",
@@ -84,7 +84,10 @@
     "UserLacksPssPermissions": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#ProductSettingPermissionsMissing",
     "UserNotAuthenticated": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/68985/user-is-not-authenticated",
     "WorksetOverrideNotFound": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/58405/worksetoverridenotfound",
-    "ZeroByte": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#ZeroByte"
+    "ZeroByte": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#ZeroByte",
+    "NotEnoughRightsInCONNECTEDContext": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#ProjectSharePermissionMissing",
+    "AllFilesHaveFailed": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/68797/all-files-have-failed",
+    "FailedToRetryTask": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/68800/failed-to-orchestrate-file-processing-retry"
   },
   "errors": {
     "briefcase_deleted": {
@@ -255,7 +258,7 @@
     "FailedToRetryTask": {
       "description": "Failed to orchestrate file processing retry.",
       "categoryId": "other",
-      "kbLinkId": "",
+      "kbLinkId": "FailedToRetryTask",
       "canUserFix": false
     },
     "TaskWasCancelled": {
@@ -449,7 +452,7 @@
     "NotEnoughRightsInCONNECTEDContext": {
       "description": "User does not have 'Read' RBAC Permission. Please give relative permission to the user.",
       "categoryId": "file_access",
-      "kbLinkId": "",
+      "kbLinkId": "NotEnoughRightsInCONNECTEDContext",
       "canUserFix": true
     },
     "iModelDmsSupportError": {
@@ -554,9 +557,9 @@
       "canUserFix": true
     },
     "IncorrectConfigVariable": {
-        "description": "%s Workspace error; configuration variable %s either not defined or has incorrect value",
-        "categoryId": "configuration",
-        "canUserFix": true
+      "description": "%s Workspace error; configuration variable %s either not defined or has incorrect value",
+      "categoryId": "configuration",
+      "canUserFix": true
     },
     "NonLinearUnits": {
       "description": "The root model is not using linear units.",
@@ -564,37 +567,37 @@
       "canUserFix": true,
       "kbLinkId": "NonLinearUnits"
     },
-    "DuplicateDataFound" : {
-        "description": "The file contains data that is spatial overlapping having similar identifiers compared to the existing content in the iModel. To prevent data problem the conversion was aborted. Details: %s",
-        "categoryId": "data_conflict",
-        "canUserFix": true,
-        "kbLinkId": "DuplicateData"
+    "DuplicateDataFound": {
+      "description": "The file contains data that is spatial overlapping having similar identifiers compared to the existing content in the iModel. To prevent data problem the conversion was aborted. Details: %s",
+      "categoryId": "data_conflict",
+      "canUserFix": true,
+      "kbLinkId": "DuplicateData"
     },
-    "AnotherUserPushing" : {
-        "description": "Another user is attempting to push data to the same iModel. Please try again in a few minutes.",
-        "categoryId": "imodel_access",
-        "canUserFix": true,
-        "kbLinkId": "AnotherUserPushing"
+    "AnotherUserPushing": {
+      "description": "Another user is attempting to push data to the same iModel. Please try again in a few minutes.",
+      "categoryId": "imodel_access",
+      "canUserFix": true,
+      "kbLinkId": "AnotherUserPushing"
     },
-    "ZeroByte" : {
-        "description": "File %s has a size of 0 bytes. Please check your datasource.",
-        "categoryId": "data_conflict",
-        "canUserFix": true,
-        "kbLinkId": ""
+    "ZeroByte": {
+      "description": "File %s has a size of 0 bytes. Please check your datasource.",
+      "categoryId": "data_conflict",
+      "canUserFix": true,
+      "kbLinkId": ""
     },
-    "SourceFileNotAccessible" : {
+    "SourceFileNotAccessible": {
       "description": "The source file is not accessible.",
       "categoryId": "file_access",
       "canUserFix": true,
       "kbLinkId": "SourceFileNotAccessible"
     },
-    "SourceFileIsForbidden" : {
+    "SourceFileIsForbidden": {
       "description": "Source file pre-authenticated URL is expired.",
       "categoryId": "file_access",
       "canUserFix": true,
       "kbLinkId": "SourceFileIsForbidden"
     },
-    "SourceFileNotFound" : {
+    "SourceFileNotFound": {
       "description": "Source file was not found at location.",
       "categoryId": "file_access",
       "canUserFix": true,
@@ -618,10 +621,10 @@
       "canUserFix": false
     },
     "FailedToConnectToRemoteServerApplication": {
-       "description": "Failed to connect to the remote server application to retrieve files.",
-       "categoryId": "file_access",
-       "kbLinkId": "FailedToConnectToRemoteServerApplication",
-       "canUserFix": true
+      "description": "Failed to connect to the remote server application to retrieve files.",
+      "categoryId": "file_access",
+      "kbLinkId": "FailedToConnectToRemoteServerApplication",
+      "canUserFix": true
     },
     "FailedToReaquireJobSubject": {
       "description": "Failed to re-acquire job subject during processing. Unable to continue processing.",
@@ -634,6 +637,18 @@
       "categoryId": "configuration",
       "kbLinkId": "ITwinSpatialAlignment",
       "canUserFix": true
+    },
+    "QuartzJobDataMapNotCreatedCorrectly": {
+      "description": "Value from quartz job data map is null for some keys.",
+      "categoryId": "other",
+      "kbLinkId": "",
+      "canUserFix": false
+    },
+    "AllFilesHaveFailed": {
+      "description": "Synchronization job was in the queue for too long and was canceled.",
+      "categoryId": "other",
+      "kbLinkId": "AllFilesHaveFailed",
+      "canUserFix": false
     }
   }
 }
