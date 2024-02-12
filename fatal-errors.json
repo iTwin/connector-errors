@@ -638,12 +638,6 @@
       "kbLinkId": "ITwinSpatialAlignment",
       "canUserFix": true
     },
-    "QuartzJobDataMapNotCreatedCorrectly": {
-      "description": "Value from quartz job data map is null for some keys.",
-      "categoryId": "other",
-      "kbLinkId": "",
-      "canUserFix": false
-    },
     "AllFilesHaveFailed": {
       "description": "Synchronization job was in the queue for too long and was canceled.",
       "categoryId": "other",
