@@ -88,7 +88,7 @@
     "NotEnoughRightsInCONNECTEDContext": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/54636/knowledge-base#ProjectSharePermissionMissing",
     "AllFilesHaveFailed": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/68797/all-files-have-failed",
     "FailedToRetryTask": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/68800/failed-to-orchestrate-file-processing-retry",
-    "MissingGeometry": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/68291/missing-data/#Dwg_0103"
+    "DwgMissingGeometry": "https://communities.bentley.com/products/digital-twin-cloud-services/itwin-services/w/synchronization-wiki/68291/missing-data/#Dwg_0103"
   },
   "errors": {
     "briefcase_deleted": {
@@ -645,10 +645,10 @@
       "kbLinkId": "AllFilesHaveFailed",
       "canUserFix": false
     },
-    "MissingGeometry": {
-      "description": " No geometry has been created for entity %s.",
+    "DwgMissingGeometry": {
+      "description": "Entity %s is not displayed, entity handle=0x%llx.  This may or may not indicate a problem depending on whether the entity is displayed in the source CAD application.",
       "categoryId": "other",
-      "kbLinkId": "MissingGeometry",
+      "kbLinkId": "DwgMissingGeometry",
       "canUserFix": false
     }
   }
