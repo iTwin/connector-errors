@@ -646,7 +646,7 @@
       "canUserFix": false
     },
     "DwgMissingGeometry": {
-      "description": "Entity %s is not displayed, entity handle=0x%llx.  This may or may not indicate a problem depending on whether the entity is displayed in the source CAD application.",
+      "description": "Entity ''%s'' is not displayed, entity handle=0x%llx. This may or may not indicate a problem depending on whether the entity is displayed in the source CAD application.",
       "categoryId": "other",
       "kbLinkId": "DwgMissingGeometry",
       "canUserFix": false
