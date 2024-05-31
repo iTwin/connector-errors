@@ -193,6 +193,12 @@
       "categoryId": "imodel_access",
       "canUserFix": false,
       "kbLinkId": ""
-    }    
+    },
+    "SavedViewNotFound": {
+      "description":"Requested savedview is not available",
+      "categoryId": "download_imodel",
+      "canUserFix": true,
+      "kbLinkId": ""
+    }
   }
 }
