@@ -62,6 +62,12 @@
       "canUserFix": false,
       "kbLinkId": ""
     },
+    "InvalidUserDefinedSchemaMappingJSON" :{
+      "description": "The user-defined schema mapping JSON object is invalid.",
+      "categoryId": "download_imodel",
+      "canUserFix": true,
+      "kbLinkId": ""
+    },
     "FailedToDownloadImodel" : {
       "description": "Error occurred while downloading iModel.",
       "categoryId": "download_imodel",
