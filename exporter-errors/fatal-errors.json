@@ -205,6 +205,12 @@
       "categoryId": "download_imodel",
       "canUserFix": true,
       "kbLinkId": ""
+    },
+    "NoWritePermission": {
+      "description": "No 'write' permission for the selected folder.",
+      "categoryId": "upload_output_file",
+      "canUserFix": true,
+      "kbLinkId": ""
     }
   }
 }
