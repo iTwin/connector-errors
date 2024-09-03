@@ -650,6 +650,18 @@
       "categoryId": "other",
       "kbLinkId": "DwgMissingGeometry",
       "canUserFix": false
+    },
+    "ErrorInUploadingFileToPW365WithServiceCredentials": {
+      "description": "Service credentials cannot be used to upload file to PW365.",
+      "categoryId": "other",
+      "kbLinkId": "",
+      "canUserFix": false
+    },
+    "ErrorInUploadingFileToShareWithServiceCredentials": {
+      "description":"Service credentials cannot be used to upload file to Share.",
+      "categoryId": "other",
+      "kbLinkId": "",
+      "canUserFix": false
     }
   }
 }
