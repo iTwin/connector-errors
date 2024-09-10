@@ -24,6 +24,7 @@
     "other"
   ],
   "kbArticleLinks": {
+    "NoWriteAccessForFolder": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0041879"
   },
   "errors": {
     "FailedToExport" : {
@@ -205,6 +206,12 @@
       "categoryId": "download_imodel",
       "canUserFix": true,
       "kbLinkId": ""
+    },
+    "NoWritePermission": {
+      "description": "No 'write' permission for the selected folder.",
+      "categoryId": "upload_output_file",
+      "canUserFix": true,
+      "kbLinkId": "NoWriteAccessForFolder"
     }
   }
 }
