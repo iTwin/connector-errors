@@ -212,6 +212,18 @@
       "categoryId": "upload_output_file",
       "canUserFix": true,
       "kbLinkId": "NoWriteAccessForFolder"
+    },
+    "ErrorInUploadingFileToPW365WithServiceCredentials": {
+      "description": "Service credentials cannot be used to upload file to ProjectWise365. Please use `User` Authentication type to upload file to ProjectWise365.",
+      "categoryId": "other",
+      "kbLinkId": "",
+      "canUserFix": true
+    },
+    "ErrorInUploadingFileToShareWithServiceCredentials": {
+      "description":"Service credentials cannot be used to upload file to Project Share. Please use `User` Authentication type to upload file to Project Share.",
+      "categoryId": "other",
+      "kbLinkId": "",
+      "canUserFix": true
     }
   }
 }
