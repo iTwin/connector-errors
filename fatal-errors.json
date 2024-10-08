@@ -66,6 +66,7 @@
     "FailedToConnectToRemoteServerApplication": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098451",
     "FailedToRetryTask": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098415",
     "FileFormat": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098410",
+    "FileAlreadyMapped": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098411",
     "GeodeticCoordinateSystemNotSupported": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098404",
     "IModelAccessForbidden": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098408",
     "IModelNotFound": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098390",
@@ -573,6 +574,12 @@
       "categoryId": "data_conflict",
       "canUserFix": true,
       "kbLinkId": "DuplicateData"
+    },
+    "FileAlreadyMapped" : {
+      "description": "The file is already mapped to the iModel using a different connector. Please unmap the file and try again.",
+      "categoryId": "configuration",
+      "canUserFix": true,
+      "kbLinkId": "FileAlreadyMapped"
     },
     "AnotherUserPushing": {
       "description": "Another user is attempting to push data to the same iModel. Please try again in a few minutes.",
