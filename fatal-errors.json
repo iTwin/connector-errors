@@ -69,7 +69,7 @@
     "GeodeticCoordinateSystemNotSupported": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098404",
     "IModelAccessForbidden": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098408",
     "IModelNotFound": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098390",
-    "IncompleteDxfHeader": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098395#DuplicateModels",
+    "IncompleteDxfHeader": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098395#IncompleteDxfFile",
     "InconsistentURL": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098383",
     "ITwinSpatialAlignment": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098345",
     "MissingShapefileDbfShx": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0098348#convertingShapeFiles",
