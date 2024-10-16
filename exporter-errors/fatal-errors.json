@@ -135,8 +135,14 @@
       "canUserFix": false,
       "kbLinkId": ""
     },
-    "ErrorInCreatingNewFile" :{
+    "ErrorInCreatingNewFileProjectShare" :{
       "description": "Error occurred while creating new file in Project Share.",
+      "categoryId": "upload_output_file",
+      "canUserFix": false,
+      "kbLinkId": ""
+    },
+    "ErrorInCreatingNewFilePW365" :{
+      "description": "Error occurred while creating new file in ProjectWise365.",
       "categoryId": "upload_output_file",
       "canUserFix": false,
       "kbLinkId": ""
