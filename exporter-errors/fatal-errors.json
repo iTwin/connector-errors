@@ -24,7 +24,12 @@
     "other"
   ],
   "kbArticleLinks": {
-    "NoWriteAccessForFolder": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0041879"
+    "NoWriteAccessForFolder": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0041879",
+    "NoReadPermissionForIModel": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0041879#EXP_002",
+    "IModelHasExcessiveElements": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0041879#EXP_003",
+    "ErrorInUserDefinedMappingFile": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0041879#EXP_004",
+    "IModelNotFound": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0041879#EXP_005",
+    "UserDefinedMappingFileNotFound": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0041879#EXP_006"
   },
   "errors": {
     "FailedToExport" : {
@@ -43,7 +48,7 @@
       "description": "The requested export contained more than 1.5 million objects and the exporter is unable to export this iModel. Please try again using a saved view that has fewer elements.",
       "categoryId": "download_imodel",
       "canUserFix": true,
-      "kbLinkId": ""
+      "kbLinkId": "IModelHasExcessiveElements"
     },
     "MissingTokenDetails" : {
       "description": "Missing user token details.",
@@ -67,7 +72,7 @@
       "description": "The user-defined schema mapping JSON object is invalid.",
       "categoryId": "download_imodel",
       "canUserFix": true,
-      "kbLinkId": ""
+      "kbLinkId": "ErrorInUserDefinedMappingFile"
     },
     "FailedToDownloadImodel" : {
       "description": "Error occurred while downloading iModel.",
@@ -114,8 +119,8 @@
     "NoReadPermission" :{
       "description": "No read permission for given iModel",
       "categoryId": "imodel_access",
-      "canUserFix": false,
-      "kbLinkId": ""
+      "canUserFix": true,
+      "kbLinkId": "NoReadPermissionForIModel"
     },
     "ErrorInGettingFile" :{
       "description": "Error occurred while getting file.",
@@ -230,6 +235,18 @@
       "categoryId": "other",
       "kbLinkId": "",
       "canUserFix": true
+    },
+    "ErrorInDownloadingMappingFile":  {
+      "description":"Error in downloading user defined schema mapping file. Please make sure that the file and the project exist. If you are using the Export API to run the IFC Export, please make sure that the BLOB URL is well formed and not expired.",
+      "categoryId": "download_file",
+      "canUserFix": true,
+      "kbLinkId": "UserDefinedMappingFileNotFound"
+    },
+    "IModelNotFound": {
+      "description":"iModel not found. Please make sure that the iModel and the project exist.",
+      "categoryId": "imodel_access",
+      "canUserFix": true,
+      "kbLinkId": "IModelNotFound"
     }
   }
 }
