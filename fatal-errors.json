@@ -56,6 +56,8 @@
     "AccessToDataSourceDenied": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098347",
     "AllFilesHaveFailed": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098417",
     "AnotherUserPushing": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098412",
+    "CanNotOpenFile": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0098395#CanNotOpenFile",
+    "CannotOpenSPPIDSource": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0098350#SPPID_0015",
     "ConnectorLockError": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098388",
     "DatasourceAuthenticationTypeIsNotSupported": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098405",
     "DocumentNotFound": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098413",
@@ -650,6 +652,18 @@
       "categoryId": "other",
       "kbLinkId": "DwgMissingGeometry",
       "canUserFix": false
+    },
+    "CanNotOpenFile": {
+      "description": "%s: Cannot open the %s file; either the path is incorrect or the file is missing.",
+      "categoryId": "other",
+      "kbLinkId": "CanNotOpenFile",
+      "canUserFix": true
+    },
+    "CannotOpenSPPIDSource": {
+      "description": "Cannot open source %s. The file may be missing, corrupt, or unsupported.",
+      "categoryId": "other",
+      "kbLinkId": "CannotOpenSPPIDSource",
+      "canUserFix": true
     }
   }
 }
