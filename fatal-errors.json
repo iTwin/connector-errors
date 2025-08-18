@@ -69,6 +69,7 @@
     "FailedToRetryTask": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098415",
     "FileFormat": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098410",
     "GeodeticCoordinateSystemNotSupported": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098404",
+    "GeoLocationFailed": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098395#GeoLocationFailed",
     "IModelAccessForbidden": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098408",
     "IModelNotFound": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098390",
     "IncompleteDxfHeader": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098395#IncompleteDxfFile",
@@ -352,6 +353,7 @@
     "GeoLocationFailed": {
       "description": "The input file has an unsupported or incorrect geo-location.",
       "categoryId": "data_conflict",
+      "kbLinkId": "GeoLocationFailed",
       "canUserFix": true
     },
     "iModelHubError": {
