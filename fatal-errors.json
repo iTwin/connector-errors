@@ -336,7 +336,7 @@
     "CanNotOpenFile": {
       "description": "%s: Cannot open the %s file; either the path is incorrect or the file is missing.",
       "categoryId": "other",
-      "kbLinkId": "",
+      "kbLinkId": "CanNotOpenFile",
       "canUserFix": true
     },
     "UnsupportedFile": {
@@ -558,7 +558,7 @@
     "CannotOpenSPPIDSource": {
       "description": "Cannot open source %s. The file may be missing, corrupt, or unsupported.",
       "categoryId": "other",
-      "kbLinkId": "",
+      "kbLinkId": "CannotOpenSPPIDSource",
       "canUserFix": true
     },
     "IncorrectConfigVariable": {
@@ -654,18 +654,6 @@
       "categoryId": "other",
       "kbLinkId": "DwgMissingGeometry",
       "canUserFix": false
-    },
-    "CanNotOpenFile": {
-      "description": "%s: Cannot open the %s file; either the path is incorrect or the file is missing.",
-      "categoryId": "other",
-      "kbLinkId": "CanNotOpenFile",
-      "canUserFix": true
-    },
-    "CannotOpenSPPIDSource": {
-      "description": "Cannot open source %s. The file may be missing, corrupt, or unsupported.",
-      "categoryId": "other",
-      "kbLinkId": "CannotOpenSPPIDSource",
-      "canUserFix": true
     }
   }
 }
