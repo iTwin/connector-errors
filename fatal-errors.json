@@ -555,12 +555,6 @@
       "kbLinkId": "",
       "canUserFix": true
     },
-    "CannotOpenSPPIDSource": {
-      "description": "Cannot open source %s. The file may be missing, corrupt, or unsupported.",
-      "categoryId": "other",
-      "kbLinkId": "",
-      "canUserFix": true
-    },
     "IncorrectConfigVariable": {
       "description": "%s Workspace error; configuration variable %s either not defined or has incorrect value",
       "categoryId": "configuration",
