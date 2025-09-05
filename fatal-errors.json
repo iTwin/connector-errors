@@ -74,8 +74,10 @@
     "IModelNotFound": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098390",
     "IncompleteDxfHeader": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098395#IncompleteDxfFile",
     "InconsistentURL": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098383",
+    "InvalidInputSPPIDFile": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0098320#SPPID_0002",
     "ITwinSpatialAlignment": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098345",
     "MissingShapefileDbfShx": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0098348#convertingShapeFiles",
+    "MissingSPPIDDrawingXML": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0098320#SPPID_0001",
     "MissingWorkspace": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098395#MissingWorkspace",
     "NonLinearUnits": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098395#NonLinearUnits",
     "NotEnoughRightsInCONNECTEDContext": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098395#ProjectSharePermissionMissing",
@@ -654,6 +656,18 @@
       "categoryId": "other",
       "kbLinkId": "DwgMissingGeometry",
       "canUserFix": false
+    },
+    "MissingSPPIDDrawingXML": {
+      "description": "Drawing.xml was not found inside ZIP archive. Input file is not a valid SmartPlant ZIP file.",
+      "categoryId": "data_conflict",
+      "kbLinkId": "MissingSPPIDDrawingXML",
+      "canUserFix": true
+    },
+    "InvalidInputSPPIDFile": {
+      "description": "Input file is not a valid SmartPlant PID or ZIP file.",
+      "categoryId": "data_conflict",
+      "kbLinkId": "InvalidInputSPPIDFile",
+      "canUserFix": true
     }
   }
 }
