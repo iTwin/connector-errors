@@ -539,6 +539,11 @@
       "categoryId": "other",
       "canUserFix": false
     },
+    "CannotUpdateRepositoryLink": {
+      "description": "Repository link cannot be updated. Please contact support.",
+      "categoryId": "other",
+      "canUserFix": false
+    },
     "WorksetOverrideNotFound": {
       "description": "Workset override file not found.",
       "categoryId": "FileAccess",
