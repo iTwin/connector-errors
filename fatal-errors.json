@@ -50,7 +50,8 @@
     "file_access",
     "data_conflict",
     "configuration",
-    "other"
+    "other",
+    "imodelhub"
   ],
   "kbArticleLinks": {
     "AccessToDataSourceDenied": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098347",
@@ -678,6 +679,21 @@
       "categoryId": "data_conflict",
       "kbLinkId": "InvalidInputSPPIDFile",
       "canUserFix": true
+    },
+    "FailedToSaveChanges": {
+      "description": "Failed to save changes to iModel. Please contact Bentley Support for more information.",
+      "categoryId": "imodelhub",
+      "canUserFix": false
+    },
+    "FailedToPushChanges": {
+      "description": "Failed to push changes to iModelHub. Please contact Bentley Support for more information.",
+      "categoryId": "imodelhub",
+      "canUserFix": false
+    },
+    "FailedToPullChanges": {
+      "description": "Failed to pull changes from iModelHub. Please contact Bentley Support for more information.",
+      "categoryId": "imodelhub",
+      "canUserFix": false
     }
   }
 }
