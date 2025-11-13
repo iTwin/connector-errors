@@ -312,8 +312,13 @@
       "categoryId": "network",
       "canUserFix": false
     },
-    "legacyV8SchemaError": {
-      "description": "Failed to import legacy V8 schema.",
+    "dynamicSchemaGenerationError": {
+      "description": "Connector failed to generate dynamic schemas.",
+      "categoryId": "data_conflict",
+      "canUserFix": false
+    },
+    "dynamicSchemaImportError": {
+      "description": "Failed to import dynamically generated schemas from the connector into the imodel.",
       "categoryId": "data_conflict",
       "canUserFix": false
     },
