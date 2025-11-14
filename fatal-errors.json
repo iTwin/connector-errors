@@ -68,6 +68,7 @@
     "FailedToAccessDataSource": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098389",
     "FailedToConnectToRemoteServerApplication": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098451",
     "FailedToRetryTask": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098415",
+    "FileAlreadyMapped": "https://bentleysystems.service-now.com/kb_view.do?sysparm_article=KB0042644",
     "FileFormat": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098410",
     "GeodeticCoordinateSystemNotSupported": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098404",
     "GeoLocationFailed": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098395#GeoLocationFailed",
@@ -694,6 +695,12 @@
       "description": "Failed to pull changes from iModelHub. Please contact Bentley Support for more information.",
       "categoryId": "imodelhub",
       "canUserFix": false
+    },
+    "FileAlreadyMapped": {
+      "description": "The file is already mapped to the iModel using a different connector. Please unmap the file and try again.",
+      "categoryId": "configuration",
+      "kbLinkId": "FileAlreadyMapped",
+      "canUserFix": true
     }
   }
 }
