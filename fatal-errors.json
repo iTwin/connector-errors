@@ -602,7 +602,7 @@
       "description": "File %s has a size of 0 bytes. Please check your datasource.",
       "categoryId": "data_conflict",
       "canUserFix": true,
-      "kbLinkId": ""
+      "kbLinkId": "ZeroByte"
     },
     "SourceFileNotAccessible": {
       "description": "The source file is not accessible.",
