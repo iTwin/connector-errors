@@ -70,6 +70,7 @@
     "FailedToRetryTask": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098415",
     "FileAlreadyMapped": "https://bentleysystems.service-now.com/kb_view.do?sysparm_article=KB0042644",
     "FileFormat": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098410",
+    "UnsupportedZIPArchive": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0098410#Revit_0038",
     "GeodeticCoordinateSystemNotSupported": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098404",
     "GeoLocationFailed": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098395#GeoLocationFailed",
     "IModelAccessForbidden": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098408",
@@ -700,6 +701,12 @@
       "description": "The file is already mapped to the iModel using a different connector. Please unmap the file and try again.",
       "categoryId": "configuration",
       "kbLinkId": "FileAlreadyMapped",
+      "canUserFix": true
+    },
+    "UnsupportedZIPArchive": {
+      "description": "Input file is not a Revit file, but rather a ZIP archive.",
+      "categoryId": "file_access",
+      "kbLinkId": "UnsupportedZIPArchive",
       "canUserFix": true
     }
   }
