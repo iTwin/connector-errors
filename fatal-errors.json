@@ -446,6 +446,11 @@
       "categoryId": "configuration",
       "canUserFix": false
     },
+    "InvalidFileIdPolicyJson": {
+      "description": "GetFileIdentificationPolicy - %s is an invalid JSON string.",
+      "categoryId": "configuration",
+      "canUserFix": false
+    },
     "ProductInstallationPathNotFound": {
       "description": "Could not get path to %s product installation. Please check the product is installed correctly on the ProjetWise WSG machine.",
       "categoryId": "configuration",
