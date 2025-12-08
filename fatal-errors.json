@@ -234,6 +234,12 @@
       "kbLinkId": "",
       "canUserFix": false
     },
+    "ManifestParseError": {
+      "description": "Error parsing manifest file %s. Error code: %d (%s) at %zu.",
+      "categoryId": "other",
+      "kbLinkId": "",
+      "canUserFix": false
+    },
     "DocumentNotFound": {
       "description": "File is deleted or not accessible.",
       "categoryId": "file_access",
