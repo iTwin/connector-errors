@@ -87,6 +87,7 @@
     "ProductInstallationPathNotFound": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098395#ProductInstallationPathNotFound",
     "ProtectedFile": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098414",
     "RootNotSpatial": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098395#RootNotSpatial",
+    "RevitLinkConflict": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0098410#Revit_0036",
     "SchemaUpgradeFailure": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098400",
     "SourceFileCorrupted": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098395#SourceFileCorrupted",
     "SourceFileIsForbidden": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098397",
@@ -736,6 +737,12 @@
       "description": "iModel is already locked. Please contact Bentley Support for more information.",
       "categoryId": "imodel_access",
       "canUserFix": false
-    }
+    },
+    "RevitLinkConflict": {
+      "description": "The input link file is already present as a master in the iModel.",
+      "categoryId": "data_conflict",
+      "kbLinkId": "RevitLinkConflict",
+      "canUserFix": true
+    } 
   }
 }
