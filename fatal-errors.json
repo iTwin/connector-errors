@@ -511,7 +511,7 @@
     },
     "SourceFileDownloadFailed": {
       "description": "Failed to download files from cache.",
-      "categoryId": "other",
+      "categoryId": "file_access",
       "canUserFix": false
     },
     "ConnectorInitializationFailed": {
@@ -719,6 +719,23 @@
       "categoryId": "file_access",
       "kbLinkId": "UnsupportedZIPArchive",
       "canUserFix": true
+    },
+    "ConnectionHasNoInputFiles": {
+      "description": "Failed to initialize synchronization without input files.",
+      "categoryId": "other",
+      "kbLinkId": "",
+      "canUserFix": true
+    },
+    "IModelAlreadyLockedByOtherApplication": {
+      "description": "iModel is already locked by other application.",
+      "categoryId": "imodel_access",
+      "kbLinkId": "",
+      "canUserFix": true
+    },
+    "IModelAlreadyLocked": {
+      "description": "iModel is already locked. Please contact Bentley Support for more information.",
+      "categoryId": "imodel_access",
+      "canUserFix": false
     }
   }
 }
