@@ -727,7 +727,7 @@
       "canUserFix": true
     },
     "IModelAlreadyLockedByOtherApplication": {
-      "description": "iModel is already locked by other application. Please contact Bentley Support for more information.",
+      "description": "iModel is already locked by other application.",
       "categoryId": "imodel_access",
       "kbLinkId": "",
       "canUserFix": true
@@ -735,7 +735,6 @@
     "IModelAlreadyLocked": {
       "description": "iModel is already locked. Please contact Bentley Support for more information.",
       "categoryId": "imodel_access",
-      "kbLinkId": "",
       "canUserFix": false
     }
   }
