@@ -70,7 +70,6 @@
     "FailedToRetryTask": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098415",
     "FileAlreadyMapped": "https://bentleysystems.service-now.com/kb_view.do?sysparm_article=KB0042644",
     "FileFormat": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098410",
-    "UnsupportedZIPArchive": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0098410#Revit_0038",
     "GeodeticCoordinateSystemNotSupported": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098404",
     "GeoLocationFailed": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098395#GeoLocationFailed",
     "IModelAccessForbidden": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098408",
@@ -87,13 +86,14 @@
     "ProductInstallationPathNotFound": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098395#ProductInstallationPathNotFound",
     "ProtectedFile": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098414",
     "RootNotSpatial": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098395#RootNotSpatial",
-    "RevitLinkConflict": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0098410#Revit_0036",
+    "RevitLinkIssue": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0048493",
     "SchemaUpgradeFailure": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098400",
     "SourceFileCorrupted": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098395#SourceFileCorrupted",
     "SourceFileIsForbidden": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098397",
     "SourceFileNotAccessible": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098399",
     "SourceFileNotFound": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098398",
     "UnmapInputFile": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098403",
+    "UnsupportedZIPArchive": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0098410#Revit_0038",
     "UserLacksPssPermissions": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098395#ProductSettingPermissionsMissing",
     "UserNotAuthenticated": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098401",
     "WorksetOverrideNotFound": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0098387",
@@ -738,11 +738,12 @@
       "categoryId": "imodel_access",
       "canUserFix": false
     },
-    "RevitLinkConflict": {
+    "RevitLinkIssue": {
       "description": "The input link file is already present as a master in the iModel.",
-      "categoryId": "data_conflict",
-      "kbLinkId": "RevitLinkConflict",
+      "categoryId": "configuration",
+      "kbLinkId": "RevitLinkIssue",
       "canUserFix": true
-    } 
+    }
+
   }
 }
