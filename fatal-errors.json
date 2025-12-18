@@ -97,7 +97,9 @@
     "UserLacksPssPermissions": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098395#ProductSettingPermissionsMissing",
     "UserNotAuthenticated": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098401",
     "WorksetOverrideNotFound": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0098387",
-    "ZeroByte": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098395#ZeroByte"
+    "ZeroByte": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098395#ZeroByte",
+    "ConnectionHasNoInputFiles": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0048507",
+    "IModelAlreadyLockedByOtherApplication": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098388"
   },
   "errors": {
     "briefcase_deleted": {
@@ -724,13 +726,13 @@
     "ConnectionHasNoInputFiles": {
       "description": "Failed to initialize synchronization without input files.",
       "categoryId": "other",
-      "kbLinkId": "",
+      "kbLinkId": "ConnectionHasNoInputFiles",
       "canUserFix": true
     },
     "IModelAlreadyLockedByOtherApplication": {
       "description": "iModel is already locked by other application.",
       "categoryId": "imodel_access",
-      "kbLinkId": "",
+      "kbLinkId": "IModelAlreadyLockedByOtherApplication",
       "canUserFix": true
     },
     "IModelAlreadyLocked": {
