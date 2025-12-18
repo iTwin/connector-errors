@@ -739,7 +739,7 @@
       "canUserFix": false
     },
     "RevitLinkIssue": {
-      "description": "The input link file is already present as a master in the iModel.",
+      "description": "The input link file can't be processed due to conflicting configuration.",
       "categoryId": "configuration",
       "kbLinkId": "RevitLinkIssue",
       "canUserFix": true
