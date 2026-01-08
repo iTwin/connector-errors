@@ -745,6 +745,11 @@
       "categoryId": "configuration",
       "kbLinkId": "RevitLinkIssue",
       "canUserFix": true
+    },
+    "ExportWrapperFailed": {
+      "description": "Failed to export.",
+      "categoryId": "other",
+      "canUserFix": false
     }
 
   }
