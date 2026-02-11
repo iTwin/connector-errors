@@ -750,7 +750,11 @@
       "categoryId": "configuration",
       "kbLinkId": "RevitLinkIssue",
       "canUserFix": true
+    },
+    "TransientIModelHubError": {
+      "description": "This is a transient error that may resolve after some time or a retry. Please try again later. If it persists, contact Bentley Support for assistance.",
+      "categoryId": "imodel_access",
+      "canUserFix": true
     }
-
   }
 }
