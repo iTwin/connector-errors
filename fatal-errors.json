@@ -99,7 +99,8 @@
     "WorksetOverrideNotFound": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0098387",
     "ZeroByte": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098395#ZeroByte",
     "ConnectionHasNoInputFiles": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0048507",
-    "IModelAlreadyLockedByOtherApplication": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098388"
+    "IModelAlreadyLockedByOtherApplication": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098388",
+    "TransientIModelHubError": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0049900"
   },
   "errors": {
     "briefcase_deleted": {
@@ -754,6 +755,7 @@
     "TransientIModelHubError": {
       "description": "This is a transient error that may resolve after some time or a retry. Please try again later. If it persists, contact Bentley Support for assistance.",
       "categoryId": "imodel_access",
+      "kbLinkId": "TransientIModelHubError",
       "canUserFix": true
     }
   }
