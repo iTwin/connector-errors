@@ -534,7 +534,12 @@
       "canUserFix": false
     },
     "BriefcaseCloseAndReopenFailed": {
-      "description": "Failed to close and reopen root file or briefcase during processing. Unable to continue processing.",
+      "description": "Failed to close and reopen the briefcase during processing. Unable to continue processing.",
+      "categoryId": "other",
+      "canUserFix": false
+    },
+    "RootFileCloseAndReopenFailed": {
+      "description": "Failed to close and reopen the root file during processing. Unable to continue processing.",
       "categoryId": "other",
       "canUserFix": false
     },
