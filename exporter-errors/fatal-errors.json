@@ -251,7 +251,7 @@
     "ManifestTooLarge": {
       "description": "Synchronization manifest exceeds supported file-count or size limits.",
       "categoryId": "other",
-      "canUserFix": true,
+      "canUserFix": false,
       "kbLinkId": ""
     }
   }
