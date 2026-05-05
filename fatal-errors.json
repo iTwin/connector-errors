@@ -538,6 +538,16 @@
       "categoryId": "other",
       "canUserFix": false
     },
+    "RootFileCloseAndReopenFailed": {
+      "description": "Failed to close and reopen the root file during processing. Unable to continue processing.",
+      "categoryId": "other",
+      "canUserFix": false
+    },
+    "DbCloseAndReopenFailed": {
+      "description": "Failed to close and reopen the briefcase during processing. Unable to continue processing.",
+      "categoryId": "other",
+      "canUserFix": false
+    },
     "UserLacksPssPermissions": {
       "description": "User does not have required Product Settings Service permissions.",
       "categoryId": "other",
