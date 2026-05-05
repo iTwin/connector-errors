@@ -247,6 +247,12 @@
       "categoryId": "imodel_access",
       "canUserFix": true,
       "kbLinkId": "IModelNotFound"
+    },
+    "ManifestTooLarge": {
+      "description": "Synchronization manifest exceeds supported file-count or size limits.",
+      "categoryId": "other",
+      "canUserFix": false,
+      "kbLinkId": ""
     }
   }
 }
