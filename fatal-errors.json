@@ -65,6 +65,7 @@
     "DrawingFileWithWrongConfig": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098392",
     "DuplicateData": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098395#DuplicateModels",
     "DwgMissingGeometry": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098314#Dwg_0103",
+    "DynamicSchemaImport": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0051450",
     "FailedToAccessDataSource": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098389",
     "FailedToConnectToRemoteServerApplication": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098451",
     "FailedToRetryTask": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098415",
@@ -338,7 +339,8 @@
     "dynamicSchemaImportError": {
       "description": "Failed to import dynamically generated schemas from the connector into the imodel.",
       "categoryId": "data_conflict",
-      "canUserFix": false
+      "kbLinkId": "DynamicSchemaImport",
+      "canUserFix": true
     },
     "protectedFile": {
       "description": "Source file is protected and user does not have appropriate rights.",
