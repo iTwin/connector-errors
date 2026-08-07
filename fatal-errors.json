@@ -65,7 +65,6 @@
     "DrawingFileWithWrongConfig": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098392",
     "DuplicateData": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098395#DuplicateModels",
     "DwgMissingGeometry": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098314#Dwg_0103",
-    "DynamicSchemaImport": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0051450",
     "FailedToAccessDataSource": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098389",
     "FailedToConnectToRemoteServerApplication": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098451",
     "FailedToRetryTask": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098415",
@@ -88,6 +87,7 @@
     "ProtectedFile": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098414",
     "RootNotSpatial": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098395#RootNotSpatial",
     "RevitLinkIssue": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0048493",
+    "SchemaConfigurationIssue": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0051450",
     "SchemaUpgradeFailure": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098400",
     "SourceFileCorrupted": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098395#SourceFileCorrupted",
     "SourceFileIsForbidden": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098397",
@@ -339,8 +339,7 @@
     "dynamicSchemaImportError": {
       "description": "Failed to import dynamically generated schemas from the connector into the imodel.",
       "categoryId": "data_conflict",
-      "kbLinkId": "DynamicSchemaImport",
-      "canUserFix": true
+      "canUserFix": false
     },
     "protectedFile": {
       "description": "Source file is protected and user does not have appropriate rights.",
@@ -768,6 +767,12 @@
       "description": "This is a transient error that may resolve after some time or a retry. Please try again later. If it persists, contact Bentley Support for assistance.",
       "categoryId": "imodel_access",
       "kbLinkId": "TransientIModelHubError",
+      "canUserFix": true
+    },
+    "SchemaConfigurationIssueError": {
+      "description": "Unable to import dynamically generated EC schemas into the iModel. Review recent schema changes for incompatible KOQ, Relationship Strength, or similar conflicts.",
+      "categoryId": "data_conflict",
+      "kbLinkId": "SchemaConfigurationIssue",
       "canUserFix": true
     }
   }
