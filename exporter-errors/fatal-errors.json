@@ -92,6 +92,12 @@
       "canUserFix": false,
       "kbLinkId": ""
     },
+    "TransformationTimeout" : {
+      "description": "The transformation process exceeded the maximum allowed time of 12 hours. This may occur with very large iModels or complex saved views.",
+      "categoryId": "transformation",
+      "canUserFix": true,
+      "kbLinkId": ""
+    },
     "MissingProjectIdOrImodelId" : {
       "description": "ProjectId or iModelId is missing in the request.",
       "categoryId": "configuration",
