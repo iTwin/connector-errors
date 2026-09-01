@@ -24,12 +24,13 @@
     "other"
   ],
   "kbArticleLinks": {
-    "NoWriteAccessForFolder": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0041879",
+    "NoWriteAccessForFolder": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0041879#EXP_001",
     "NoReadPermissionForIModel": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0041879#EXP_002",
     "IModelHasExcessiveElements": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0041879#EXP_003",
     "ErrorInUserDefinedMappingFile": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0041879#EXP_004",
     "IModelNotFound": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0041879#EXP_005",
-    "UserDefinedMappingFileNotFound": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0041879#EXP_006"
+    "UserDefinedMappingFileNotFound": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0041879#EXP_006",
+    "TransformationTimeout": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0041879#EXP_007"
   },
   "errors": {
     "FailedToExport" : {
@@ -96,7 +97,7 @@
       "description": "The transformation process exceeded the maximum allowed time of 12 hours. This may occur with very large iModels or complex saved views.",
       "categoryId": "transformation",
       "canUserFix": true,
-      "kbLinkId": ""
+      "kbLinkId": "TransformationTimeout"
     },
     "MissingProjectIdOrImodelId" : {
       "description": "ProjectId or iModelId is missing in the request.",
