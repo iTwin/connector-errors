@@ -101,7 +101,8 @@
     "ZeroByte": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098395#ZeroByte",
     "ConnectionHasNoInputFiles": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0048507",
     "IModelAlreadyLockedByOtherApplication": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0098388",
-    "TransientIModelHubError": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0049900"
+    "TransientIModelHubError": "https://bentleysystems.service-now.com/community?id=kb_article&sysparm_article=KB0049900",
+    "OBDPSConfigurationError": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0051806"
   },
   "errors": {
     "briefcase_deleted": {
@@ -773,6 +774,12 @@
       "description": "Unable to import dynamically generated EC schemas into the iModel. Review recent schema changes for incompatible KOQ, Relationship Strength, or similar conflicts.",
       "categoryId": "data_conflict",
       "kbLinkId": "SchemaConfigurationIssue",
+      "canUserFix": true
+    },
+    "OBDPSConfigurationError": {
+      "description": "Unable to run the OpenBuildings / ProStructures Connector. A configuration error was detected.",
+      "categoryId": "configuration",
+      "kbLinkId": "OBDPSConfigurationError",
       "canUserFix": true
     }
   }
