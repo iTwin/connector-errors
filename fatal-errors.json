@@ -781,6 +781,11 @@
       "categoryId": "configuration",
       "kbLinkId": "OBDPSConfigurationError",
       "canUserFix": true
-    }
+    },
+    "ControlledError": {
+      "description": "Execution forcefully failed after lock acquisition via feature flag 'imFwk-forceLockFailure' (Controlled Error).",
+      "categoryId": "imodel_access",
+      "kbLinkId": "",
+      "canUserFix": true}
   }
 }
