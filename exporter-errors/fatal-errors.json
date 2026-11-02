@@ -30,7 +30,8 @@
     "ErrorInUserDefinedMappingFile": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0041879#EXP_004",
     "IModelNotFound": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0041879#EXP_005",
     "UserDefinedMappingFileNotFound": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0041879#EXP_006",
-    "TransformationTimeout": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0041879#EXP_007"
+    "TransformationTimeout": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0041879#EXP_007",
+    "NoDataInIModel": "https://bentleysystems.service-now.com/community?id=kb_article_view&sysparm_article=KB0041879#EXP_008"
   },
   "errors": {
     "FailedToExport" : {
@@ -50,6 +51,12 @@
       "categoryId": "download_imodel",
       "canUserFix": true,
       "kbLinkId": "IModelHasExcessiveElements"
+    },
+    "EmptyIModel" : {
+      "description": "The iModel contains no data.",
+      "categoryId": "download_imodel",
+      "canUserFix": true,
+      "kbLinkId": "NoDataInIModel"
     },
     "MissingTokenDetails" : {
       "description": "Missing user token details.",
